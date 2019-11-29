@@ -14,3 +14,11 @@ install:
  - pip install html5validator
 
 script: html5validator --root htdocs/ --also-check-cs
+
+language: cpp
+
+compiler:
+ - gcc
+
+script:
+ - make test
