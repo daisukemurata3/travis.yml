@@ -15,10 +15,10 @@ install:
 
 script: html5validator --root htdocs/ --also-check-cs
 
-language: cpp
+language: python
 
 compiler:
- - gcc
+ - py
 
 script:
  - make test
