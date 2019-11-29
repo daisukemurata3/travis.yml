@@ -21,4 +21,4 @@ compiler:
  - py
 
 script:
- - make test
+ - make test --root htdocs/ --also-check-cs
