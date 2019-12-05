@@ -15,7 +15,7 @@ install:
  - pip install html5validator
 
 script: 
-  - test -z "$(ls -A htdocs/)"
+  - test -n "$(ls -A htdocs/)"
   # - test -e ./htdocs/index.html
 #  - html5validator --root htdocs/ --also-check-cs
 #  - make test 
