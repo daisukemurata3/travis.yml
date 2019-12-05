@@ -16,6 +16,7 @@ install:
 
 script: 
   - test -n "$(ls -A htdocs/)"
+  - python test.py
   # - test -e ./htdocs/index.html
 #  - html5validator --root htdocs/ --also-check-cs
 #  - make test 
