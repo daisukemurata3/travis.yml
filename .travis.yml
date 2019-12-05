@@ -16,5 +16,5 @@ install:
 
 script: 
  - html5validator --root htdocs/ --also-check-cs
- - py.test index.html
+ - test index.html
 
