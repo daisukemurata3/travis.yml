@@ -17,8 +17,8 @@ install:
 script: 
   - html5validator --root htdocs/ --also-check-cs
   #- test -e ./htdocs/index.html
-  - test -n "$(ls -A htdocs/)"
-  # - test -e ./htdocs/index.html
+  #- test -n "$(ls -A htdocs/)"
+   - test -e ./htdocs/index.html
 #  - html5validator --root htdocs/ --also-check-cs
 #  - make test 
 
