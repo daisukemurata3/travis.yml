@@ -1,4 +1,2 @@
-# .travis.yml
-travis ciむずい
-
-動かねえ
+側# .travis.yml
+daisukemurata3側
